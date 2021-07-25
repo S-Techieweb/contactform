@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 97vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('tablet-1075790_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+    text-transform: uppercase;
+}
+.contact-box{
+    width: 490px;
+    background-color:#172f3da4;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 40px;
+    outline: none;
+}
+.input-field1{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 8px;
+    outline: none;
+}
+.textarea-field{
+    height: 120px;
+}
+button{
+    border: none;
+    color: #fff;
+    background-color:#3a09c0;
+    padding: 12px 30px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial;
+    cursor: pointer;
+    display: block;
+  
+  }
